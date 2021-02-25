@@ -1,7 +1,7 @@
 {
-    "port": "8080",
+    "port": "81",
     "ssl": false,
-    "prefix": "/web/",
+    "prefix": "/alloy/",
     "localAddresses": [],
-    "blockedHostnames": []
+    "blockedHostnames": ["block.test"]
 }
