@@ -2,8 +2,14 @@
 Simple proxy site made totally for the meme.
 
 ## Setup Instructions
-* Clone repository to your enviornment `git clone https://github.com/ctaetcsh/epic-cat-proxy.git`
-* Change directory into that folder `cd epic-cat-proxy`
-* Install dependancies `npm install`
-* Start the server `node server.js`
-* Open a web browser and go to `localhost:80` or from another computer, `your_ip:80`
+1. `git clone https://github.com/ctaetcsh/epic-cat-proxy.git`
+2. `cd epic-cat-proxy`
+3. `npm install`
+4. `node server.js`
+5. Go to `localhost`
+
+## Configuration
+ECP can be configured by editing `config.json`:
+* Port: Default is `80`, can be changed if needed
+* Prefix: Default is `/alloy/`, change not recommended
+* Blocked Hosts: Default array just has `block.test`, which is only used for testing. Should be changed to a production ready list of bad domains.
