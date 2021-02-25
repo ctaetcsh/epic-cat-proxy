@@ -1,5 +1,5 @@
 {
-    "port": "81",
+    "port": "80",
     "ssl": false,
     "prefix": "/alloy/",
     "localAddresses": [],

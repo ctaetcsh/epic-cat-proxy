@@ -1,0 +1,38 @@
+{
+  "name": "epic-cat-proxy",
+  "version": "1.0.0",
+  "description": "A fork of titaniumnetwork-dev/alloy that increases the swag and epic to 2000%",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ctaetcsh/epic-cat-proxy.git"
+  },
+  "keywords": [
+    "web",
+    "proxy",
+    "proxy",
+    "titaniumnetwork",
+    "epic",
+    "swagger",
+    "ctaetcsh",
+    "node",
+    "ws",
+    "cat"
+  ],
+  "author": "Nathan M. [ctaetcsh]",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/ctaetcsh/epic-cat-proxy/issues"
+  },
+  "homepage": "https://github.com/ctaetcsh/epic-cat-proxy#readme",
+  "dependencies": {
+    "ws": "^7.4.3"
+  }
+}
